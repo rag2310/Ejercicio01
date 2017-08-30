@@ -29,3 +29,13 @@ var producto5 = {
 }
 
 var productos = [producto1,producto2,producto3,producto4,producto5]
+
+
+for (var i = 0; i < productos.length; i++)
+{
+	var nombre = productos[i].nombre	
+	var precio = productos[i].precio
+	var cantidad = productos[i].cantidad
+
+	alert(`Descripcion del producto \n Nombre: ${nombre} \n Precio: ${precio} \n En existencia: ${cantidad}`)
+}
