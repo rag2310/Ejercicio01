@@ -1,0 +1,31 @@
+var producto1 = {
+	nombre: "Pan",
+	precio: 2
+	cantidad: 12
+}
+
+var producto2 = {
+	nombre: "Queso",
+	precio: 30,
+	libras: 5
+}
+
+var producto3 = {
+	nombre: "Té",
+	precio: 2
+	cantidad: 12
+}
+
+var producto4 = {
+	nombre: "Café",
+	precio: 2,
+	cantidad: 24
+}
+
+var producto5 = {
+	nombre: "Gaseosa",
+	precio: 19
+	litros: 12
+}
+
+
