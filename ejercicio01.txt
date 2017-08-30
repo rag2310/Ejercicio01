@@ -1,28 +1,33 @@
 var producto1 = {
+	id: 01,
 	nombre: "Pan",
 	precio: 2,
 	cantidad: "12 unidades"
 }
 
 var producto2 = {
+	id: 02,
 	nombre: "Queso",
 	precio: 30,
 	cantidad: "5 libras"
 }
 
 var producto3 = {
+	id: 03,
 	nombre: "Té",
 	precio: 2,
 	cantidad: "12 unidades"
 }
 
 var producto4 = {
+	id: 04,
 	nombre: "Café",
 	precio: 2,
 	cantidad: "24 unidades"
 }
 
 var producto5 = {
+	id: 05,
 	nombre: "Gaseosa",
 	precio: 19,
 	cantidad: "12 litros"
@@ -33,9 +38,14 @@ var productos = [producto1,producto2,producto3,producto4,producto5]
 
 for (var i = 0; i < productos.length; i++)
 {
+	var id = productos[i].id
 	var nombre = productos[i].nombre	
 	var precio = productos[i].precio
 	var cantidad = productos[i].cantidad
 
-	alert(`Descripcion del producto \n Nombre: ${nombre} \n Precio: ${precio} \n En existencia: ${cantidad}`)
+	alert(`Descripcion del producto 
+	\n----------------------------
+	\nId: ${id} Nombre: ${nombre} 
+	\nPrecio:${precio} 
+	\nEn existencia: ${cantidad}`)
 }
